@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9530915241.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Spotified | Music For Every Mood</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><img src="images/logo.jpg" alt=""><span>Spotified</span></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" target="_blank">About Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h2>Spotified Specials | Your Choice</h2>
+            <div class="songitem" id="currentsong">
+                <img src="images/posters/chidiya.jpg" alt="">
+                <span id="songname">Chidiya | Vilen</span>
+                <span id="songduration">06:54</span>
+            </div>
+            <div class="songitem" id="notcurrentsong">
+                <img src="images/posters/joker.jpeg" alt="">
+                <span id="songname">Joker | Hardy Sandhu</span>
+                <span id="songduration">05:38</span>
+            </div>
+            <div class="songitem" id="notcurrentsong">
+                <img src="images/posters/karmaidnfateh.jpeg" alt="">
+                <span id="songname">Kar Har Maidan Fateh</span>
+                <span id="songduration">05:11</span>
+            </div>
+            <div class="songitem" id="notcurrentsong">
+                <img src="images/posters/savan.jpeg" alt="">
+                <span id="songname">Savan | Vilen</span>
+                <span id="songduration">04:32</span>
+            </div>
+            <div class="songitem" id="notcurrentsong">
+                <img src="images/posters/soch.jpg" alt="">
+                <span id="songname">Soch | Hardy Sandhu</span>
+                <span id="songduration">05:46</span>
+            </div>
+            <div class="songitem" id="notcurrentsong">
+                <img src="images/posters/zindagidipaudi.jpeg" alt="">
+                <span id="songname">Zindagi Di Paudi</span>
+                <span id="songduration">04:49</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bottom">
+        <!-- <span style="color: white;">0:00</span> -->
+        <div class="songinfo">
+            <div id="sname">
+                Chidiya | Vilen
+            </div>
+            <input type="range" id="rangebar" value=0 max=100>
+            <div class="navigation">
+                <i class="fas fa-step-backward fa-3x" id="masterprevious"></i>
+                <i class="fas fa-play-circle fa-3x" id="masterplay"></i>
+                <i class="fas fa-step-forward fa-3x" id="masternext"></i>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

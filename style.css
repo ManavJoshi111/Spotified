@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#currentsong {
+  background: #b91d1d;
+}
+/* NAVIGATION BAR CSS */
+.navbar {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 10vh;
+  width: 100vw;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 15px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.navbar li a:hover {
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.navbar ul li img {
+  height: 55px;
+}
+
+.navbar ul li span {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+  cursor: default;
+}
+
+/* MIDDLE CONTAINERS CSS */
+.container {
+  border: 2px solid gray;
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+  background-image: url("images/bg.jpg");
+  min-height: 80vh;
+  width: 80vw;
+  margin: 12px auto;
+  border-radius: 20px;
+  color: white;
+}
+
+.container h2 {
+  margin: 10px 5px;
+  font-size: 30px;
+}
+/* .songlist {
+} */
+
+.songitem {
+  display: flex;
+  border: 2px solid silver;
+  background-color: white;
+  border-radius: 50px;
+  justify-content: space-between;
+  flex-direction: row;
+  color: black;
+  align-items: center;
+  margin: 15px 10px;
+}
+
+.songitem span {
+  font-size: 20px;
+}
+
+.songitem #songduration {
+  margin-right: 10px;
+}
+.songitem img {
+  height: 50px;
+  width: 50px;
+  margin: 2px 5px;
+  border-radius: 50px;
+}
+/* .songbanner {
+  
+} */
+
+/* BOTTOM BAR CSS */
+
+.bottom {
+  position: sticky;
+  height: 100px;
+  background-color: black;
+}
+
+.songinfo {
+  background-color: black;
+}
+.bottom .songinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bottom .songinfo input {
+  width: 80%;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.songinfo i {
+  color: white;
+}
+
+/* #masterpause {
+  display: none;
+} */
+.navigation :hover {
+  cursor: pointer;
+}
+
+.songinfo #sname {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: default;
+}
