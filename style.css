@@ -144,3 +144,9 @@
   margin-top: 10px;
   cursor: default;
 }
+
+@media only screen and (max-width: 400px) {
+  .navbar ul li a {
+    display: none;
+  }
+}
