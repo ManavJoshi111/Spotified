@@ -12,5 +12,3 @@ about the application
 
 The most exciting thing about this app is that it is completely responsive and 
 can be viewed in diffrenet size of screens
-
-you can mail me to have further informationn aboout this : manavjoshi154@gmail.com
